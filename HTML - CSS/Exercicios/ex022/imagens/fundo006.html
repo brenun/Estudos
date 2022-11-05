@@ -8,15 +8,24 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url('wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
             background-size: cover;
+            /*background-color: black;
+            background-image: url('wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+            color > image > position > report > [size] > attachment
+            */
+
+            background: black url('wallpaper002.jpg') center center repeat-y fixed;
+            /* [size] não funciona na Shortthand*/
         }
 
         main{
-            background-color: honeydew;
+            background-color: rgb(247, 247, 247);
             width: 400px;
             padding: 10px;
             margin: auto;
@@ -29,6 +38,9 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vero possimus culpa iusto ipsam accusantium officia ut, eaque earum aliquid, veniam quasi dolorum sint ab soluta odio obcaecati fuga? Molestias?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam neque esse ullam, corrupti rerum consequatur cupiditate voluptates. Voluptas ad incidunt officiis, cupiditate mollitia illum quia nemo veniam architecto, id voluptatem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati voluptatibus delectus eligendi soluta voluptates fuga ratione explicabo nostrum officiis, quae autem ab, doloremque debitis. Quaerat ullam praesentium quasi repudiandae.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vero possimus culpa iusto ipsam accusantium officia ut, eaque earum aliquid, veniam quasi dolorum sint ab soluta odio obcaecati fuga? Molestias?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam neque esse ullam, corrupti rerum consequatur cupiditate voluptates. Voluptas ad incidunt officiis, cupiditate mollitia illum quia nemo veniam architecto, id voluptatem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati voluptatibus delectus eligendi soluta voluptates fuga ratione explicabo nostrum officiis, quae autem ab, doloremque debitis. Quaerat ullam praesentium quasi repudiandae.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vero possimus culpa iusto ipsam accusantium officia ut, eaque earum aliquid, veniam quasi dolorum sint ab soluta odio obcaecati fuga? Molestias?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam neque esse ullam, corrupti rerum consequatur cupiditate voluptates. Voluptas ad incidunt officiis, cupiditate mollitia illum quia nemo veniam architecto, id voluptatem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati voluptatibus delectus eligendi soluta voluptates fuga ratione explicabo nostrum officiis, quae autem ab, doloremque debitis. Quaerat ullam praesentium quasi repudiandae.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vero possimus culpa iusto ipsam accusantium officia ut, eaque earum aliquid, veniam quasi dolorum sint ab soluta odio obcaecati fuga? Molestias?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam neque esse ullam, corrupti rerum consequatur cupiditate voluptates. Voluptas ad incidunt officiis, cupiditate mollitia illum quia nemo veniam architecto, id voluptatem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati voluptatibus delectus eligendi soluta voluptates fuga ratione explicabo nostrum officiis, quae autem ab, doloremque debitis. Quaerat ullam praesentium quasi repudiandae.</p>
     </main>
 </body>
